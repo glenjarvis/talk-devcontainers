@@ -1,0 +1,15 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export --format pdf"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "lib": [
+      "deno.ns",
+      "dom"
+    ]
+  }
+}
