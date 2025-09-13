@@ -1,0 +1,27 @@
+{
+  "name": "Slidev + Deno Dev Container",
+  "build": { "dockerfile": "Dockerfile", "context": ".." },
+  "forwardPorts": [3030],
+  "portsAttributes": {
+    "3030": { "label": "Slidev dev server", "onAutoForward": "notify" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "denoland.vscode-deno",
+        "Vue.volar",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "deno.enable": true,
+        "deno.lint": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "files.associations": { "*.md": "markdown" }
+      }
+    }
+  },
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": true,
+  "postCreateCommand": "deno --version && slidev --version || true"
+}
+
