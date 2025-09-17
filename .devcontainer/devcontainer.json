@@ -22,6 +22,6 @@
   },
   "remoteUser": "vscode",
   "updateRemoteUserUID": true,
-  "postCreateCommand": "deno --version && slidev --version || true"
+  "postCreateCommand": "deno cache package.json && deno task dev --help"
 }
 

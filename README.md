@@ -45,23 +45,7 @@ To simplify this demo, we will assume:
    Note: Even if your computer is a macOS or Windows computer, you will see `aarch64-unknown-linux-gnu`. This is running from inside the Dev Container
    which is Linux based.
 
-5. **Ensure dependencies are installed**
-   Deno will download and link npm dependencies the first time you run a task.
-   To be explicit (similar to `npm install`), run:
-
-   ```bash
-   deno cache package.json
-   ```
-
-   Deno will install packages listed in `package.json` automatically.
-
-   Glen's TODO: Eliminate this manual step by updating `devcontainer.json` to do this automatically:
-
-   ```
-   "postCreateCommand": "deno cache package.json && deno task dev --help"
-   ```
-
-6. **Start the slide presentation**
+5. **Start the slide presentation**
    ```bash
    deno task dev
    ```
@@ -103,23 +87,7 @@ To simplify this demo, we will assume:
    Note: Even if your computer is a macOS or Windows computer, you will see `aarch64-unknown-linux-gnu`. This is running from inside the Dev Container
    which is Linux based.
 
-5. **Ensure dependencies are installed**
-   Deno will download and link npm dependencies the first time you run a task.
-   To be explicit (similar to `npm install`), run:
-
-   ```bash
-   deno cache package.json
-   ```
-
-   Deno will install packages listed in `package.json` automatically.
-
-   Glen's TODO: Eliminate this manual step by updating `devcontainer.json` to do this automatically:
-
-   ```
-   "postCreateCommand": "deno cache package.json && deno task dev --help"
-   ```
-
-6. **Start the slide presentation**
+5. **Start the slide presentation**
    ```bash
    deno task dev
    ```
