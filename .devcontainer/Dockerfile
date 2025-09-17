@@ -14,10 +14,6 @@ ENV PATH="$DENO_INSTALL/bin:$PATH"
 
 RUN curl -fsSL https://deno.land/install.sh | sh && deno --version
 
-# Install Slidev globally for the user; lockfile lives in a writable place
-ENV DENO_INSTALL_ROOT=/home/vscode/.deno/bin
-RUN deno install -g -A npm:@slidev/cli && slidev --version || true
-
 EXPOSE 3030
 
 SHELL ["/bin/bash", "-c"]
