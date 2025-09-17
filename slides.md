@@ -135,9 +135,9 @@ Presenter Notes (Slide 5 - Estimating Time)
 - In the book "The Unicorn Project", it took a very senior developer
 - Maxine Chambers, two weeks to configure her laptop
 
-Image: Spanish student checking the time while sitting at a table near computer by Scopio from <a href="https://thenounproject.com/photo/spanish-student-checking-the-time-while-sitting-at-a-table-near-computer-0JxKp4/" target="_blank" title="Spanish student checking the time while sitting at a table near computer Photo">Noun Project</a> (CC BY-NC-ND 2.0)
-
 - Time: 00:47
+
+Image: Spanish student checking the time while sitting at a table near computer by Scopio from <a href="https://thenounproject.com/photo/spanish-student-checking-the-time-while-sitting-at-a-table-near-computer-0JxKp4/" target="_blank" title="Spanish student checking the time while sitting at a table near computer Photo">Noun Project</a> (CC BY-NC-ND 2.0)
 -->
 
 ---
@@ -253,7 +253,7 @@ Presenter Notes (Slide 7 - Our experience)
 - It has a modern API design (No more CommonJS)
 - It will still work with NPM modules.
 - And, it supports TypeScript by default
-
+- (beat)
 - And Slidev is a program that generates slides from Markdown, and
 - can include custom styling, interactivity, etc.
 - I am using Slidev right now, running on Deno to give you this presentation.
@@ -874,13 +874,13 @@ Presenter Notes (Slide 24 - Next Steps)
 - But, if they are present, then we could use them.
 - That would make onboarding so much easier.
 - And, we would all have a consistent environment.
-
+- (beat)
 - Okay, that new developer was up and running so quickly,
 - she already finished her first ticket.
 - And, it wasn't an environment setup ticket,
 - it was real value that she was able to provide to the customer that quickly.
 
-- Time: XX:XX
+- Time: 12:06
 -->
 
 
@@ -965,7 +965,7 @@ Presenter Notes (Slide 29 - GitHub)
 - And, try to open it in a Dev Container.
 - To launch slides, type: `deno task dev`
 
-- Time: XX:XX
+- Time: 12:27
 -->
 
 ---
